@@ -1,0 +1,6 @@
+file = open("balance.txt", "r+")
+test = file.read()
+print(test)
+test = input("Testar om det fungerar")
+file.write(test)
+file.close()
