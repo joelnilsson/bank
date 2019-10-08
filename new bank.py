@@ -31,6 +31,20 @@ while chances >= 0:
                     restart = ("y")
                 elif withdraw == 1:
                     withdraw = float(input("Var god skriv in önskat belopp"))
+            elif option == 3:
+                Deposition = float(input("Hur mycket vill du lägga in?"))
+                balance = balance + Deposition
+                print("Ditt saldo är nu Â£",balance)
+                restart = input("Vill du gå tillbaka?")
+                if restart in ("n","NO","no","N"):
+                    print("Tack så mycket")
+                    break
+            elif option == 4:
+                print("Var god ta ut kort")
+                print("Ha en fortsatt trevlig dag")
+                break
+            else:
+                print("Var god skriv in ")
 
 
 
