@@ -23,7 +23,7 @@ while chances >= 0:
                 withdrawl = float(input('How Much Would you like to withdraw? \nÂ£10/Â£20/Â£40/Â£60/Â£80/Â£100 for other enter 1: '))
                 if withdrawl in [10, 20, 40, 60, 80, 100]:
                     balance = balance - withdrawl
-                    print ('\nYour Balance is now Â£',balance)
+                    print ('\nYour Balance is now ',balance)
                     restart = input('Would You you like to go back? ')
                     if restart in ('n','NO','no','N'):
                         print('Thank You')
